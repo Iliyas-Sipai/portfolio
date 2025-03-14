@@ -1,0 +1,90 @@
+@media  screen and   (max-width:1400px) {
+  #profile{
+    height: 83vh;
+    margin-top: 6rem;
+  }   
+  .section-text{
+    flex-wrap: wrap;
+  }
+}
+
+@media  screen and (max-width:1200px) {
+    .experience-details-container{
+        display: block;
+    }
+    #profile,
+    .section-container{
+        display: block;
+    }
+
+    section{
+        margin: 0 5%;
+    }
+    .section-pic-container{
+        width: 275px;
+        height: 275px;
+        margin: 0 auto 2rem; 
+    }
+    .about-text{
+        margin-top: 0;
+    }
+      
+   
+}
+
+@media screen and (max-width:600px) {
+    #profile{
+        height: 83vh;
+        margin-bottom: 0;
+        margin-top: 0;
+    }
+    .description-first{
+        font-size: 2rem;
+    }
+    #profile{
+        height: 83vh;
+    }
+    .tab-button{
+        width: 98px;
+    }
+    .project-part{
+        margin-right: 100px;
+    }
+    .cssProject ,
+    .project-container{
+        width: 320px;
+    }   
+ 
+    .btn-container{
+        flex-wrap: wrap;
+    }
+    .skill-container{
+        display: flex;
+        flex-direction: column;
+        gap: 5rem;
+        margin-left: 50px;
+    }
+    .log{
+        font-size: 6rem;
+    }
+    .box img{
+        width: 200px;
+        height: 150px;
+    }
+    .skill-text{
+      font-size: 1.5rem;
+      font-weight: bold;
+    }
+    .description{
+        font-size: 1.9rem;
+    }
+    .box:hover{
+        transform: scale(1.03);
+        background-color: #ffff;
+        box-shadow: 0 10px 15px rgb(143, 147, 147);
+    }
+
+}
+
+    /* SKILL  Section ******************************************************************************************************** */
+

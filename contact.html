@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+      
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="mediascreen.css">
+
+</head>
+<body>
+    <nav id="deskstop-nav">
+        <div class="logo" onclick="location.href='portfolio.html'">Iliyas</div>
+        <div>
+            <ul class="nav-link">
+                <li><a href="project.html">PROJECT</a></li>
+                <li><a href="skills.html">SKILLS</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </div>
+     </nav>
+      <!-- *///////////////////////////////////////////////////////*// -->
+     <nav id="hamburger-nav">
+        <div class="logo">Iliyas</div>
+        <div class="hamburger-menu">
+               <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+               </div>
+               <ul class="menu-link">
+                <li><a href="project.html" onclick="toggleMenu()" >PROJECT</a></li>
+                <li><a href="skills.html" onclick="toggleMenu()">SKILLS</a></li>
+                <li><a href="about.html" onclick="toggleMenu()">About Us</a></li>
+                <li><a href="contact.html" onclick="toggleMenu()">CONTACT</a></li>
+               </ul>
+        </div>
+     </nav>
+     <section>
+        <div id="social-container">
+                <a href="https://www.linkedin.com/in/iliyas-sipai-6957bb290/"><i class="ri-linkedin-box-fill icon "></i></a>
+                <a href="https://github.com/sipaiiliyas"><i class="ri-github-fill icon"></i></a>
+                <a href="https://codepen.io/sipaiiliyas"><i class="ri-codepen-line icon"></i></a>
+             </div>
+     </section>
+
+     <script src="app.js"></script>
+
+</body>
+</html>

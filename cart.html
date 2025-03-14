@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Projects</title>
+    <style>
+        /* Styling for project sections */
+        .project {
+            padding: 15px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+        }
+
+        /* Initially hide all project sections */
+        .css-projects, .js-projects {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<h2>My Projects</h2>
+
+<!-- Buttons to toggle project sections -->
+<button id="showCSS">Show CSS Projects</button>
+<button id="showJS">Show JavaScript Projects</button>
+
+<!-- Project sections -->
+<div class="project css-projects">
+    <h3>CSS Project 1</h3>
+    <p>Details about CSS project 1.</p>
+</div>
+<div class="project css-projects">
+    <h3>CSS Project 2</h3>
+    <p>Details about CSS project 2.</p>
+</div>
+<div class="project js-projects">
+    <h3>JavaScript Project 1</h3>
+    <p>Details about JavaScript project 1.</p>
+</div>
+<div class="project js-projects">
+    <h3>JavaScript Project 2</h3>
+    <p>Details about JavaScript project 2.</p>
+</div>
+
+<script>
+    // Get the buttons
+    const showCSSButton = document.getElementById("showCSS");
+    const showJSButton = document.getElementById("showJS");
+
+    // Event listener to show CSS projects and hide JavaScript projects
+    showCSSButton.addEventListener("click", function() {
+        document.querySelectorAll(".css-projects").forEach(el => el.style.display = "block");
+        document.querySelectorAll(".js-projects").forEach(el => el.style.display = "none");
+    });
+
+    // Event listener to show JavaScript projects and hide CSS projects
+    showJSButton.addEventListener("click", function() {
+        document.querySelectorAll(".js-projects").forEach(el => el.style.display = "block");
+        document.querySelectorAll(".css-projects").forEach(el => el.style.display = "none");
+    });
+
+    if(1==2){
+    
+    }
+</script>
+
+</body>
+</html>
