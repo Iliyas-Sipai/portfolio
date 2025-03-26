@@ -26,6 +26,7 @@ a, .btn{
     display: flex;
 }
 nav{
+    display: flex;
     justify-content: space-around;
     align-items: center;
     height: 17vh;
