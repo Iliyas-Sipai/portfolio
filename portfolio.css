@@ -20,7 +20,6 @@ p{
 a, .btn{
     transition: all 300ms ease;
 }
-  
 /* General Styles */
 .nav-link{
     display: flex;
@@ -68,7 +67,6 @@ a:hover{
 
 #deskstop-nav .nav-link a {
     text-decoration: none;
-    /* color: white; */
     font-size: 18px;
     transition: 0.3s;
 }
@@ -137,7 +135,6 @@ a:hover{
 /* Show the menu when active */
 .menu-link.active {
     display: block;
-    /* position: relative; */
 }
 
 /* Responsive Styles */
@@ -183,7 +180,6 @@ section{
     display: flex;
     height: 400px;
     width: 400px;
-    /* margin:auto 0; */
     margin-bottom: 300px;
 }
 .section-pic-container img{
@@ -208,7 +204,6 @@ section{
     border-right: 0.20px solid black;
     white-space: nowrap;
     margin: 0 auto;
-    /* animation: typing 5s steps(40,end),blink-caret 0.75s step-end infinite; */
     animation: typing 5s steps(40,end),blink-caret 0.75s step-end infinite;
 
 }
