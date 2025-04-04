@@ -7,7 +7,6 @@ const  tabCotainer = document.querySelector(".container-project")
 const tabButtons = document.querySelectorAll(".tab-button")
 const tabContent = document.querySelectorAll(".project-part")
 // console.log(tabCotainer,tabButtons ,tabContent);
-
 tabCotainer.addEventListener('click', (event) => {
   //  console.log(event.target.dataset);
 
