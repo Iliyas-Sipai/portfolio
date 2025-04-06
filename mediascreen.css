@@ -41,20 +41,6 @@
     .description-first{
         font-size: 2rem;
     }
-    #profile{
-        height: 83vh;
-    }
-    .tab-button{
-        width: 98px;
-    }
-    .project-part{
-        margin-right: 100px;
-    }
-    .cssProject ,
-    .project-container{
-        width: 320px;
-    }   
- 
     .btn-container{
         flex-wrap: wrap;
     }
@@ -85,6 +71,46 @@
     }
 
 }
+@media screen and (max-width: 768px) {
+    .color-container {
+        padding: 10px;
+        text-align: center;
+    }
 
+    .project-img {
+        width: 100%;
+        height: auto;
+        border-radius: 0.5rem;
+    }
+
+    .project-title {
+        font-size: 1.2rem;
+        margin: 0.5rem;
+    }
+
+    .project-btn {
+        padding: 8px 12px;
+        font-size: 14px;
+        display: block;
+        width: 100%;
+        text-align: center;
+    }
+
+    .details-container {
+        padding: 1rem;
+        border-radius: 8px;
+    }
+
+    .experience-details-container {
+        width: 100%;
+        padding: 1rem;
+    }
+
+    .article-container {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+}
     /* SKILL  Section ******************************************************************************************************** */
 
