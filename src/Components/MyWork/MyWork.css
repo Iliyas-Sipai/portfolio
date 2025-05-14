@@ -1,0 +1,236 @@
+/*.mywork{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 80px;
+    margin: 80px 10%;
+}
+
+.mywork-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px;
+}
+.mywork-container img{
+    width: 100%;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.mywork-container img:hover{
+    transform: scale(1.10);
+    border: 4px solid #ff00ff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+.mywork-showmore{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 50px;
+    border: 2px solid white;
+    padding: 20px 40px;
+    font-size: 20px;
+    font-weight: 500;
+    margin-bottom: 20px;
+    transition: 0.6s;
+    cursor: pointer;
+}
+.mywork-showmore img{
+    width: 25px;
+}
+.mywork-showmore:hover{
+    gap: 30px;
+    transition: 0.6s;
+}
+@media(max-width:768px){
+    .mywork{
+        gap: 50px;
+        margin: 50px 6%;
+        align-items: start;
+    }
+    
+    .mywork-container{
+        grid-template-columns: 1fr 1fr;
+        gap: 20px;
+    }
+    .mywork-showmore{
+        padding: 15px 30px;
+        font-size: 16px;
+        margin: 10px auto;
+       
+    }
+    .mywork-showmore:hover{
+        gap: 20px;
+    }
+}*/
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&display=swap');
+.projects-container {
+  padding: 2rem;
+  text-align: center;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 2rem;
+}
+
+/* Tab buttons */
+.projects-tab-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 2rem;
+  gap: 0.75rem;
+}
+
+.projects-tab-button {
+  padding: 0.7rem 1.3rem;
+  border: none;
+  border-radius: 20px;
+  background-color: #f0f0f0;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1rem;
+  color: #333;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.projects-tab-button.active,
+.projects-tab-button:hover {
+  background-color: #000055;
+  color: #fff;
+}
+
+.projects-grid {
+  display: grid;
+  gap: 1.5rem;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.project-card {
+  width: 100%;
+  border: none;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 20px;
+  background-color: #fff;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+}
+
+.project-title {
+  margin: 0.75rem 0 0.5rem;
+  font-size: 1.1rem;
+  color: #333;
+  padding: 0 1rem;
+  font-weight: 600;
+}
+
+.project-image {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+}
+
+/* Links */
+.project-links {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.75rem 1rem 1rem;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+}
+
+.project-link {
+  padding: 0.4rem 0.8rem;
+  font-size: 0.9rem;
+  border: 2px solid #0088a9;
+  border-radius: 5px;
+  text-decoration: none;
+  color: #0088a9;
+  transition: 0.3s;
+}
+
+.project-link:hover {
+  background-color: #000055;
+  color: white;
+  border-color: #000055;
+}
+
+/* Button 17 style */
+.button-17 {
+  width: 150px;
+  height: 50px;
+  border: 3px solid #315cfd;
+  border-radius: 20px;
+  transition: all 0.3s;
+  cursor: pointer;
+  background: white;
+  font-size: 1.2em;
+  font-weight: 550;
+  text-decoration: none;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-17:hover {
+  background: #315cfd;
+  color: white;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .projects-title {
+    font-size: 2rem;
+  }
+
+  .project-link {
+    font-size: 0.85rem;
+    padding: 0.4rem 0.6rem;
+  }
+}
+
+@media (max-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .projects-tab-button {
+    font-size: 0.9rem;
+    padding: 0.5rem 1rem;
+  }
+
+  .project-link {
+    font-size: 0.8rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
