@@ -87,56 +87,56 @@ const content = {
       imageSrc: css1,
       sourceCodeLink:
         "https://github.com/Iliyas-Sipai/CSS-Project/tree/new/facebook",
-      visitPageLink: "https://css-project-lilac.vercel.app/",
+      visitPageLink: "https://facebook-login-page-tan.vercel.app/",
     },
     {
       title: "Parallax Website",
       imageSrc: css2,
       sourceCodeLink:
         "https://github.com/Iliyas-Sipai/CSS-Project/tree/new/project3",
-      visitPageLink: "https://css-project-2x4b.vercel.app/",
+      visitPageLink: "https://parallax-website-eight-omega.vercel.app/",
     },
     {
       title: "Music Web Clone",
       imageSrc: css3,
       sourceCodeLink:
         "https://github.com/Iliyas-Sipai/CSS-Project/tree/new/project6",
-      visitPageLink: "https://css-project-b91z.vercel.app/",
+      visitPageLink: "https://music-web-clone.vercel.app/",
     },
     {
       title: "Hover or Not",
       imageSrc: css4,
       sourceCodeLink:
         "https://github.com/Iliyas-Sipai/CSS-Project/tree/main/hover-or-not",
-      visitPageLink: "https://css-project-mdd8.vercel.app/",
+      visitPageLink: "https://hover-or.vercel.app/",
     },
     {
       title: "JS Documentation",
       imageSrc: css5,
       sourceCodeLink:
         "https://github.com/Iliyas-Sipai/CSS-Project/tree/new/project8",
-      visitPageLink: "https://css-project-c1xd.vercel.app/#Introduction",
+      visitPageLink: "https://js-documention.vercel.app/",
     },
     {
       title: "Netflix Login Page",
       imageSrc: css6,
       sourceCodeLink:
         "https://github.com/Iliyas-Sipai/CSS-Project/tree/new/Netflic%20login%20page",
-      visitPageLink: "https://css-project-frn4.vercel.app/",
+      visitPageLink: "https://netflix-login-page-three.vercel.app/",
     },
     {
       title: "Border Animation",
-      imageSrc: css7,
+      imageSrc: css8,
       sourceCodeLink:
-        "https://github.com/Iliyas-Sipai/CSS-Project/tree/main/text%20border%20animation",
+      "https://github.com/Iliyas-Sipai/CSS-Project/tree/main/text%20border%20animation",
       visitPageLink: "https://css-project-29cl.vercel.app/",
     },
     {
       title: "Responsive Card",
-      imageSrc: css8,
+      imageSrc: css7,
       sourceCodeLink:
         "https://github.com/Iliyas-Sipai/CSS-Project/tree/main/card",
-      visitPageLink: "https://css-project-b6h9.vercel.app/",
+      visitPageLink: "https://css-project-smoky.vercel.app/",
     },
   ],
  react: [
