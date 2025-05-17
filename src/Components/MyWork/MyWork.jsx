@@ -25,26 +25,26 @@ const content = {
       imageSrc: js1,
       sourceCodeLink:
         "https://github.com/Iliyas-Sipai/Javascript-project/tree/main/project9",
-      visitPageLink: "https://javascript-project-m6oo.vercel.app/",
+      visitPageLink: "https://timer-eta-one.vercel.app/",
     },
     {
       title: "Calculator",
       imageSrc: js2,
       sourceCodeLink: "https://github.com/Iliyas-Sipai/calculator",
-      visitPageLink: "https://calculator-woad-eight-22.vercel.app/",
+      visitPageLink: "https://calculator-smoky-alpha-67.vercel.app/",
     },
     {
       title: "Toggle Button",
       imageSrc: js3,
       sourceCodeLink: "https://github.com/Iliyas-Sipai/Toggle-button",
-      visitPageLink: "https://toggle-button-vercelapp.vercel.app/",
+      visitPageLink: "https://toggle-button-blond.vercel.app/",
     },
     {
       title: "Add Friend & Remove",
       imageSrc: js4,
       sourceCodeLink:
         "https://github.com/Iliyas-Sipai/Javascript-project/tree/main/project1",
-      visitPageLink: "https://javascript-project-9424.vercel.app/",
+      visitPageLink: "https://javascript-project-rose.vercel.app/",
     },
     {
       title: "Password ganerator",
@@ -58,27 +58,27 @@ const content = {
       imageSrc: js7,
       sourceCodeLink:
         "https://github.com/Iliyas-Sipai/Javascript-project/tree/main/project2",
-      visitPageLink: "https://project-you-tube-sigma.vercel.app/",
+      visitPageLink: "https://like-page.vercel.app/",
     },
     ,
     {
       title: "Mini Calendar",
       imageSrc: js9,
       sourceCodeLink: "https://github.com/Iliyas-Sipai/mini-calendar",
-      visitPageLink: "https://mini-calendar-ecru.vercel.app/",
+      visitPageLink: "https://mini-calendar-one.vercel.app/",
     },
     {
       title: "Random Color ganerator",
       imageSrc: js6,
       sourceCodeLink:
         "https://github.com/Iliyas-Sipai/Javascript-project/tree/main/project11",
-      visitPageLink: "https://javascript-project-il1l.vercel.app/",
+      visitPageLink: "https://random-color-ganerator.vercel.app/",
     },
     {
       title: "BG Change",
       imageSrc: js5,
-      sourceCodeLink: "https://github.com/Iliyas-Sipai/background-change.",
-      visitPageLink: "https://background-change-gules.vercel.app/",
+      sourceCodeLink: "https://github.com/Iliyas-Sipai/Javascript-project/tree/main/BG-change%20onclick",
+      visitPageLink: "https://bg-chnager-onclick.vercel.app/",
     },
   ],
   css: [
