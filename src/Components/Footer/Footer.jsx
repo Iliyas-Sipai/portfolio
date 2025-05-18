@@ -10,7 +10,9 @@ const Footer = () => {
         <div className="footer-top-left">
             {/* <img src={footer_logo} alt="" /> */}
             <h2 style={{fontFamily:"initial",fontSize:"30px",marginBottom:"10px"}}>Iliyas</h2>
-            <p>I am a frontend developer from, USA with 10 years of experience in companies like Microsoft, Tesla and Apple.</p>
+            <p>I'm iliyas “I am a passionate and detail-oriented web developer with a strong foundation in HTML, CSS, JavaScript, Bootstrap, and React. I enjoy creating responsive,
+               user-friendly websites and continuously learning new technologies to improve my skills.”
+</p>
         </div>
         <div className="footer-top-right">
             <div className="footer-email-input">
@@ -22,7 +24,7 @@ const Footer = () => {
       </div>
       <hr />
       <div className="footer-bottom">
-        <p className="footer-bottom-left">© 2023 Alex Bennett. All rights reserved.</p>
+        <p className="footer-bottom-left">© 2025 Iliyas Sipai. All rights reserved.</p>
         <div className="footer-bottom-right">
             <p>Term of Services</p>
             <p>Privacy Policy</p>

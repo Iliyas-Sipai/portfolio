@@ -4,17 +4,17 @@ import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
 import location_icon from '../../assets/location_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
+import github_icon from '../../assets/github-icon-1.svg'
+import linkedin_icon from '../../assets/linkedin-icon-1.svg'
+
+
 
 const Contact = () => {
-
   const onSubmit = async (event) => {
     event.preventDefault();
     const formData = new FormData(event.target);
-
 // enter your own web3 forms access key below
-
     formData.append("access_key", "xxxxxxxxxxxxxxxxxxxxxxxx");
-
     const object = Object.fromEntries(formData);
     const json = JSON.stringify(object);
 
@@ -26,10 +26,7 @@ const Contact = () => {
       },
       body: json
     }).then((res) => res.json());
-
-    
       alert(res.message);
-    
   };
 
 
@@ -52,6 +49,12 @@ const Contact = () => {
                 </div>
                 <div className="contact-detail">
                     <img src={location_icon} alt="" /> <p>Agol,India</p>
+                </div>
+                <div className="contact-detail">
+                    <img src={linkedin_icon} alt="" /><a href='https://www.linkedin.com/in/iliyas-sipai-dev/' target="_blank" className="linkedin-link" ><p > LinkedIn</p></a>
+                </div>
+                <div className="contact-detail">
+                    <img src={github_icon} alt="" /><a href='https://github.com/Iliyas-Sipai' target="_blank" className="linkedin-link" ><p > GitHub Profile</p></a>
                 </div>
             </div>
         </div>
