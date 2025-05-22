@@ -3,7 +3,10 @@ import './Hero.css'
 import profile_img from '../../assets/profile_img.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import profile from '../../assets/profile-image.jpeg'
+// import resume from './my-resume.pdf'; 
+import resumeFile from '../../assets/my-resume.pdf';
 
+// src/my-resume.pdf
 const Hero = () => {
   return (
     <div id='home' className='hero'>
@@ -12,7 +15,11 @@ const Hero = () => {
       <p>Hello, my name is Sipai Iliyas, and I’m a passionate frontend developer from India with a strong interest in building user-friendly, responsive, and impactful websites.</p>
       <div className="hero-action">
         <div className="hero-connect"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect with me</AnchorLink></div>
-        <div className="hero-resume">My resume</div>
+        {/* <div className="hero-resume">My resume</div> */}
+        <div className="hero-resume">My resume
+        <a href="./my-resume.pdf" download target="_blank" rel="noopener noreferrer"></a>
+      </div>
+    
       </div>
     </div>
   )
