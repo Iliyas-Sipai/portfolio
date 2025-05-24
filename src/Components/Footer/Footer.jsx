@@ -2,6 +2,8 @@ import React from 'react'
 import './Footer.css'
 import footer_logo from '../../assets/footer_logo.svg'
 import user_icon from '../../assets/user_icon.svg'
+import logo from '../../assets/iliyas.png'
+
 
 const Footer = () => {
   return (
@@ -9,7 +11,7 @@ const Footer = () => {
       <div className="footer-top">
         <div className="footer-top-left">
             {/* <img src={footer_logo} alt="" /> */}
-            <h2 style={{fontFamily:"initial",fontSize:"30px",marginBottom:"10px"}}>Iliyas</h2>
+            <img src={logo} className='logo' />
             <p>I'm iliyas “I am a passionate and detail-oriented web developer with a strong foundation in HTML, CSS, JavaScript, Bootstrap, and React. I enjoy creating responsive,
                user-friendly websites and continuously learning new technologies to improve my skills.”
 </p>
