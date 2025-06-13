@@ -4,8 +4,8 @@ import theme_pattern from '../../assets/theme_pattern.svg'
 import mail_icon from '../../assets/mail_icon.svg'
 import location_icon from '../../assets/location_icon.svg'
 import call_icon from '../../assets/call_icon.svg'
-import github_icon from '../../assets/github-icon-1.svg'
-import linkedin_icon from '../../assets/linkedin-icon-1.svg'
+import github_icon from '../../assets/github-icon-1.png'
+import linkedin_icon from '../../assets/linkedin-icon-1.png'
 
 
 
@@ -50,14 +50,14 @@ const Contact = () => {
                 <div className="contact-detail">
                     <img src={location_icon} alt="" /> <p>Agol,India</p>
                 </div>
-                <div className="contact-detail">
-                    <img src={linkedin_icon} alt="" /><a href='https://www.linkedin.com/in/iliyas-sipai-dev/' target="_blank" className="linkedin-link" ><p > LinkedIn</p></a>
+                <div className="contact-detail ">
+                    <img src={linkedin_icon} className='social-icon' /><a href='https://www.linkedin.com/in/iliyas-sipai-dev/' target="_blank" className="linkedin-link" ><p > LinkedIn</p></a>
                 </div>
                 <div className="contact-detail">
-                    <img src={github_icon} alt="" /><a href='https://github.com/Iliyas-Sipai' target="_blank" className="linkedin-link" ><p > GitHub Profile</p></a>
+                    <img src={github_icon} className='social-icon' /><a href='https://github.com/Iliyas-Sipai' target="_blank" className="linkedin-link" ><p > GitHub Profile</p></a>
                 </div>
             </div>
-        </div>
+        </div>  77  
         <form onSubmit={onSubmit} className="contact-right">
             <label htmlFor="">Your Name</label>
             <input type="text" placeholder='Enter your name' name='name' />

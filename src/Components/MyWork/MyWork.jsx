@@ -1,3 +1,4 @@
+// import js image
 import js1 from "../../assets/js-pro1.png";
 import js2 from "../../assets/js-pro2.png";
 import js3 from "../../assets/js-pro3.png";
@@ -8,7 +9,7 @@ import js7 from "../../assets/js-pro7.png";
 import js8 from "../../assets/js-pro8.png";
 import js9 from "../../assets/js-pro9.png";
 import js10 from "../../assets/js-pro10.png";
-
+// import css image
 import css1 from "../../assets/csspro-1.png";
 import css2 from "../../assets/csspro-2.png";
 import css3 from "../../assets/csspro-3.png";
@@ -17,6 +18,10 @@ import css5 from "../../assets/csspro-5.png";
 import css6 from "../../assets/csspro-6.png";
 import css7 from "../../assets/csspro-7.png";
 import css8 from "../../assets/csspro-8.png";
+// import raect image
+import react01 from "../../assets/react-pro01.png";
+import react02 from "../../assets/react-pro02.png";
+import react03 from "../../assets/react-pro03.png";
 
 const content = {
   javascript: [
@@ -77,7 +82,8 @@ const content = {
     {
       title: "BG Change",
       imageSrc: js5,
-      sourceCodeLink: "https://github.com/Iliyas-Sipai/Javascript-project/tree/main/BG-change%20onclick",
+      sourceCodeLink:
+        "https://github.com/Iliyas-Sipai/Javascript-project/tree/main/BG-change%20onclick",
       visitPageLink: "https://bg-chnager-onclick.vercel.app/",
     },
   ],
@@ -128,7 +134,7 @@ const content = {
       title: "Border Animation",
       imageSrc: css8,
       sourceCodeLink:
-      "https://github.com/Iliyas-Sipai/CSS-Project/tree/main/text%20border%20animation",
+        "https://github.com/Iliyas-Sipai/CSS-Project/tree/main/text%20border%20animation",
       visitPageLink: "https://css-project-29cl.vercel.app/",
     },
     {
@@ -139,9 +145,28 @@ const content = {
       visitPageLink: "https://css-project-smoky.vercel.app/",
     },
   ],
- react: [
-    // {
-    // },
+  react: [
+    {
+      title: "To-Do List",
+      imageSrc: react01,
+      sourceCodeLink:
+        "https://github.com/Iliyas-Sipai/projects-react/tree/main/to-do-list",
+      visitPageLink: "https://to-do-list-nine-azure-50.vercel.app/",
+    },
+    {
+      title: "User Data fetch",
+      imageSrc: react02,
+      sourceCodeLink:
+        "https://github.com/Iliyas-Sipai/projects-react/tree/main/user-data-fetcher",
+      visitPageLink: "https://user-data-fetch-chi.vercel.app/",
+    },
+    {
+      title: "Realtime Search",
+      imageSrc: react03,
+      sourceCodeLink:
+        "https://github.com/Iliyas-Sipai/projects-react/tree/main/live-search-filter",
+      visitPageLink: "https://realtime-search-list-jusf9f5ym-sipai-iliyas-projects.vercel.app/",
+    },
   ],
 };
 // *************//////////////////////////*//********************************************/////*//// */
