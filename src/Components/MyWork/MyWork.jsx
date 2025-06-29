@@ -150,15 +150,15 @@ const content = {
       title: "To-Do List",
       imageSrc: react01,
       sourceCodeLink:
-        "https://github.com/Iliyas-Sipai/projects-react/tree/main/to-do-list",
-      visitPageLink: "https://to-do-list-nine-azure-50.vercel.app/",
+        "https://github.com/Iliyas-Sipai/react-project/tree/main/to-do-list",
+      visitPageLink:"https://to-to-list-58744wb9b-sipai-iliyas-projects.vercel.app/",
     },
     {
       title: "User Data fetch",
       imageSrc: react02,
       sourceCodeLink:
-        "https://github.com/Iliyas-Sipai/projects-react/tree/main/user-data-fetcher",
-      visitPageLink: "https://user-data-fetch-chi.vercel.app/",
+        "https://github.com/Iliyas-Sipai/react-project/tree/main/user-data-fetcher",
+      visitPageLink: "https://user-data-fetcher-5j5hwtx15-sipai-iliyas-projects.vercel.app/",
     },
     {
       title: "Realtime Search",

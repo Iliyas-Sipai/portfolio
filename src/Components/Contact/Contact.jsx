@@ -42,7 +42,7 @@ const Contact = () => {
             <p>I'm currently avaliable to take on new projects, so feel free to send me a message about anything that you want me to work on. You can contact anytime.</p>
             <div className="contact-details">
                 <div className="contact-detail">
-                    <img src={mail_icon} alt="" /> <p>iliyassipai861@gmail.com</p>
+                    <img src={mail_icon} alt="" /><a href='iliyassipai861@gmail.com' target="_blank" className="linkedin-link" ><p>iliyassipai861@gmail.com</p></a> 
                 </div>
                 <div className="contact-detail">
                     <img src={call_icon} alt="" /> <p>+91 9316198853</p>
@@ -54,10 +54,10 @@ const Contact = () => {
                     <img src={linkedin_icon} className='social-icon' /><a href='https://www.linkedin.com/in/iliyas-sipai-dev/' target="_blank" className="linkedin-link" ><p > LinkedIn</p></a>
                 </div>
                 <div className="contact-detail">
-                    <img src={github_icon} className='social-icon' /><a href='https://github.com/Iliyas-Sipai' target="_blank" className="linkedin-link" ><p > GitHub Profile</p></a>
+                    <img src={github_icon} style={{width:'28px'}} className='social-icon' /><a href='https://github.com/Iliyas-Sipai' target="_blank" className="linkedin-link" ><p > GitHub Profile</p></a>
                 </div>
             </div>
-        </div>  77  
+        </div>  
         <form onSubmit={onSubmit} className="contact-right">
             <label htmlFor="">Your Name</label>
             <input type="text" placeholder='Enter your name' name='name' />
