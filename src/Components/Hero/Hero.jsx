@@ -4,8 +4,6 @@ import profile_img from '../../assets/profile_img.svg'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
 import profile from '../../assets/profile-image.jpeg'
 import resumeFile from '../../assets/my-resume.pdf';
-
-// src/my-resume.pdf
 const Hero = () => {
   return (
     <div id='home' className='hero'>
