@@ -22,6 +22,8 @@ import css8 from "../../assets/csspro-8.png";
 import react01 from "../../assets/react-pro01.png";
 import react02 from "../../assets/react-pro02.png";
 import react03 from "../../assets/react-pro03.png";
+import react04 from "../../assets/react-pro04.png";
+
 
 const content = {
   javascript: [
@@ -166,6 +168,13 @@ const content = {
       sourceCodeLink:
         "https://github.com/Iliyas-Sipai/projects-react/tree/main/live-search-filter",
       visitPageLink: "https://realtime-search-list-jusf9f5ym-sipai-iliyas-projects.vercel.app/",
+    },
+     {
+      title: "GoShope",
+      imageSrc: react04,
+      sourceCodeLink:
+        "https://github.com/Iliyas-Sipai/project",
+      visitPageLink: "https://go-shope.vercel.app/",
     },
   ],
 };
