@@ -174,7 +174,7 @@ const content = {
       imageSrc: react04,
       sourceCodeLink:
         "https://github.com/Iliyas-Sipai/project",
-      visitPageLink: "https://go-shope.vercel.app/",
+      visitPageLink: "https://go-shope.vercel.app/-",
     },
   ],
 };
